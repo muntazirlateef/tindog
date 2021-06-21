@@ -1,0 +1,216 @@
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+
+}
+
+/*heading css*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.heading {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3rem;
+    font-weight: normal;
+    line-height: 1.5;
+    padding-top: 60px;
+}
+
+/*container css
+#container
+{
+    padding: 3% 15%;
+}
+*/
+.container-fluid {
+    padding: 3% 10% 10%;
+}
+
+/* navigation bar */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+
+.navbar {
+    padding-bottom: 4rem;
+    padding-left: 0;
+}
+
+.nav-item {
+    padding: 0 18px;
+
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+/* download buttons */
+.download-button {
+    margin: 10% 3% 4% 5%;
+}
+
+/* tittle image */
+.title-image {
+    width: 28%;
+    padding-left: 4rem;
+    transform: rotate(30deg);
+    position: absolute;
+
+}
+
+/* feature section */
+
+#features {
+    padding-top: 7%;
+    padding-left: 15%;
+    padding-bottom: 10%;
+    padding-right: 5%;
+    background: linear-gradient(#FFDDCC, #BA135D);
+    position: relative;
+}
+
+/* functions*/
+.function {
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-heading {
+    font-family: 'Karla-bold', sans-serif;
+    padding-top: 20px;
+}
+
+/* testimonils */
+#testimonials {
+
+
+    text-align: center;
+    background-color: #ef8172;
+    font-family: 'Karla-bolder', sans-serif;
+
+}
+
+.test {
+    font-size: x-large;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+.test-image {
+    width: 20%;
+    border-radius: 100%;
+    margin: 30px;
+}
+
+/* press  */
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.press-images {
+    width: 150px;
+    margin: 20px 20px 50px;
+}
+
+.testimonial-text {
+    font-size: x-large;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 20%;
+    border-radius: 100%;
+    margin: 30px;
+}
+
+.carousel-item {
+
+    padding: 7% 15%;
+}
+
+/* pricing section */
+#pricing {
+    background-color: #FF94CC;
+    padding: 6.5%;
+}
+
+.pricing-card {
+    padding: 3rem 4rem;
+}
+
+/* media quary */
+@media (max-width:1000px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 300px;
+        padding-left: 5px;
+    }
+}
+
+/* call-toaction  download*/
+#cta {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-color: #ff4c68;
+}
+
+.dwn-btn-txt {
+    color: #ffff;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+    font-family: 'Karla-bolder', sans-serif;
+}
+
+.dwnload-btn1 {
+    margin-top:40px;
+    margin-right: 10px;
+}
+.dwnload-btn2
+{
+    margin-top: 40px;
+    margin-left:10px ;
+}
+
+/* footer */
+#footer {
+   
+    margin-top: 40px;
+    text-align: center;
+}
+
+.fa-twitter {
+    padding-right: 20px;
+}
+
+.fa-linkedin-in {
+    padding-right: 20px;
+}
+
+.footer-text {
+    padding-top: 4px;
+    margin-bottom: 0px;
+    font-family: 'Quicksand', sans-serif;
+}
